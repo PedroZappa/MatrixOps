@@ -6,14 +6,14 @@ int main() {
   char op;
   int a[ROWS][COLS], b[ROWS][COLS], sum[ROWS][COLS], diff[ROWS][COLS], product[ROWS][COLS], i, j, k;
 
-  printf("Select Matrix Operator [ +, - ]:\n");
+  puts("Select Matrix Operator [ +, - ]:\n");
   scanf("%c", &op);
 
-  printf("Enter two 2x2 Matrices: \n");
-  printf("          _ _ _ _ \n");
+  puts("Enter two 2x2 Matrices: \n\n          * * * * ");
+  // printf("");
   printf("Matrix 1: ");
   scanf("%d %d %d %d", &a[0][0], &a[0][1], &a[1][0], &a[1][1]);
-  printf("          _ _ _ _ \n");
+  printf("\n          * * * * \n");
   printf("Matrix 2: ");
   scanf("%d %d %d %d", &b[0][0], &b[0][1], &b[1][0], &b[1][1]);
 
