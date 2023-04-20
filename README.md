@@ -7,7 +7,6 @@ This repository contains a C program called `matrixAddition.c` which adds two 2x
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Improvements](#future-improvements)
-- [Credits](#credits)
 
 ## Installation
 
@@ -35,6 +34,3 @@ The program will then display the sum of the two hardcoded matrices.
 - Implement error handling for invalid matrix input
 - Add support for other matrix operations (e.g., subtraction, multiplication)
 
-## Credits
-
-This program was created by [Your Name](https://github.com/your-github-profile). Feel free to reach out with any questions or suggestions.
