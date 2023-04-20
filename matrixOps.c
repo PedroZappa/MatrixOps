@@ -4,9 +4,9 @@ int main() {
   const int ROWS = 2;
   const int COLS = 2;
   char op;
-  int a[ROWS][COLS], b[ROWS][COLS], sum[ROWS][COLS], diff[ROWS][COLS], i, j;
+  int a[ROWS][COLS], b[ROWS][COLS], sum[ROWS][COLS], diff[ROWS][COLS], product[ROWS][COLS], i, j, k;
 
-  printf("Select Matrix Operation [ +, -, /, * ]:\n");
+  printf("Select Matrix Operator [ +, - ]:\n");
   scanf("%c", &op);
 
   printf("Enter two 2x2 Matrices: \n");
@@ -34,7 +34,7 @@ int main() {
       break;
     // Operator doesn't match any case
     default:
-      printf("Error! Invalid operator.\n");
+      printf("Error! Invalid Operator.\n");
       break;
   }
 
