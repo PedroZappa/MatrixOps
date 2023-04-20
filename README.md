@@ -1,6 +1,6 @@
 # README: matrixAddition.c
 
-This repository contains a C program called `matrixAddition.c` which adds two 2x2 matrices and prints the result. The matrices are hardcoded within the program.
+This repository contains a C program called `matrixAddition.c` which takes two user input matrices, adds them and prints the result.
 
 ## Contents
 
@@ -30,7 +30,6 @@ The program will then display the sum of the two hardcoded matrices.
 
 ## Future Improvements
 
-- Allow users to input their own matrices of arbitrary size
 - Implement error handling for invalid matrix input
 - Add support for other matrix operations (e.g., subtraction, multiplication)
 
