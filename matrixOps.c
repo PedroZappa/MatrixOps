@@ -3,7 +3,7 @@
 int main() {
   const int ROWS = 2;
   const int COLS = 2;
-  int a[ROWS][COLS], b[ROWS][COLS], sum[ROWS][COLS], i, j;
+  int a[ROWS][COLS], b[ROWS][COLS], sum[ROWS][COLS], diff[ROWS][COLS], i, j;
 
   printf("Enter two 2x2 Matrices: \n");
   printf("          _ _ _ _ \n");
@@ -17,6 +17,13 @@ int main() {
   for (i = 0; i < ROWS; i++) { // Traverse Rows
     for (j = 0; j < COLS; j++) { // Traverse Columns
       sum[i][j] = a[i][j] + b[i][j];
+    }
+  }
+
+  // Subtracting two matrices
+  for (i = 0; i < ROWS; i++) {
+    for (j = 0; j < COLS; j++) { 
+      diff[i][j] = a[i][j] - b[i][j];
     }
   }
 
